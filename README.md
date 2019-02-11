@@ -3,7 +3,7 @@
 CSE299 - Junior design
 
 
-Project Topic: Hostel, Resturant Seat & food reservation App
+Project Topic: Hotel, restaurant Seat & food reservation App
 
 Build-up Language: Java (back-end), XML(front-end)
 
