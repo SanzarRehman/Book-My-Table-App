@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLayouts">
-    <shared>
-      <config />
-    </shared>
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="be78c99c-d61c-42ea-8516-aff705f0be21" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
@@ -193,7 +188,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
+    <option name="x" value="621" />
+    <option name="y" value="174" />
     <option name="width" value="697" />
     <option name="height" value="775" />
   </component>
@@ -206,6 +202,7 @@
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
