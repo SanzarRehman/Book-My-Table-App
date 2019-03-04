@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class tavelbuddy extends AppCompatActivity {
+public class splashScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public class tavelbuddy extends AppCompatActivity {
                     // Thread will sleep for 5 seconds
                     sleep(2*1000);
 
-                    Intent intent = new Intent(tavelbuddy.this,LoginActivity.class);
+                    Intent intent = new Intent(splashScreen.this,LoginActivity.class);
                     startActivity(intent);
 
 
