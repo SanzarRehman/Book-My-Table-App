@@ -21,10 +21,8 @@ public class splashScreen extends AppCompatActivity {
 
                     Intent intent = new Intent(splashScreen.this,LoginActivity.class);
                     startActivity(intent);
-
-
+                    
                     // After 5 seconds redirect to another intent
-
 
                     //Remove activity
                     finish();
