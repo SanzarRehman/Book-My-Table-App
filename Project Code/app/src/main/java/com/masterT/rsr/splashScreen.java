@@ -45,3 +45,6 @@ public class splashScreen extends AppCompatActivity {
 
     }
 }
+
+
+//successful with integrating activity_splash_screen
