@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_sign_in);
         mAuth =FirebaseAuth.getInstance();
 
-        editTextEmail = (EditText) findViewById(R.id.user1);
+        editTextEmail = (EditText) findViewById(R.id.username);
         editTextPassword = (EditText) findViewById(R.id.pass1);
         progressBar = (ProgressBar) findViewById(R.id.progressbar);
         findViewById(R.id.join).setOnClickListener(this);
