@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SignInActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -47,7 +48,7 @@
                 android:textColor="#fff"
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
-                android:background="@drawable/buttonstylepink"
+                android:background="@drawable/buttonpink2"
                 android:text="Join US   " />
 
 
