@@ -9,10 +9,11 @@
         android:roundIcon="@drawable/finalaa"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Main2Activity"></activity>
         <activity
             android:name=".NavBar"
             android:label="@string/title_activity_nav_bar"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Registration" />
         <activity android:name=".NewsFeedActivity" />
         <activity android:name=".SignUpActivity" />
@@ -24,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SignInActivity" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
