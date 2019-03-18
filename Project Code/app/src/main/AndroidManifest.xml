@@ -10,9 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ShowRestaurantActivity"
+            android:label="@string/title_activity_show_restaurant"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mastert.bookmyseat.MainActivity" />
+        </activity>
+        <activity
             android:name=".NavBar"
             android:label="@string/title_activity_nav_bar"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Registration" />
         <activity android:name=".NewsFeedActivity" />
         <activity android:name=".SignUpActivity" />
@@ -24,7 +33,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SignInActivity" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
