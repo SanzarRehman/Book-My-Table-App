@@ -3,7 +3,7 @@
 CSE299 - Junior design
 
 
-Project Topic: Hostel, Resturant Seat & food reservation App
+Project Topic: Hostel, Restaurant Seat & food reservation App
 
 Build-up Language: Java (back-end), XML(front-end)
 
@@ -23,3 +23,12 @@ Members:
 1620952042	Md. Rashad Tanjim	rashad.tanjim@northsouth.edu
 
 1621555030  Sanzar Rahman  sanzar.rahman@northsouth.edu
+
+added activities:
+SplashScreen
+Login
+Signup
+Registration
+HanderFirebase
+Timeline
+ShowRestaurant
