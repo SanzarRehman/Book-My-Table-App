@@ -7,6 +7,7 @@ Project Topic: Hostel, Restaurant Seat & food reservation App
 
 Build-up Language: Java (back-end), XML(front-end)
 
+![SCREENSHOT](Mockup/Screenshot/Design.jpg)
 
 Semester: Spring'19
 
