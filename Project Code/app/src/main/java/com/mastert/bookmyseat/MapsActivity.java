@@ -103,7 +103,11 @@ public class MapsActivity extends AppCompatActivity  implements  OnMapReadyCallb
 
                 LatLng userLocation = new LatLng(location.getLatitude(), location.getLongitude());
 
-
+                mMap.clear();
+                mMap.addMarker(new MarkerOptions().position(userLocation).title("Your Location")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE)));
+                mMap.moveCamera(CameraUpdateFactory.newLatLng(userLocation));
+              
 
                 LatLng nsu = new LatLng(23.8151152, 90.4249748); //@23.8151152,90.4249748 (NSU Location)
                 mMap.addMarker(new MarkerOptions().position(nsu).title("North South University")
