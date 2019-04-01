@@ -12,7 +12,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 //Our Map API key is AIzaSyBvC_BNOjfNmfa_DlXf1EGfynifEa-vBG0
 //This key is only verified for our app BookMySeat
-//Mail:  travel.buddy.finder@gmail.com   
+//Mail:  travel.buddy.finder@gmail.com
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
