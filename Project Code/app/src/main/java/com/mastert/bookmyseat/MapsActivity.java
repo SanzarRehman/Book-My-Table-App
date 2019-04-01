@@ -2,7 +2,7 @@ package com.mastert.bookmyseat;
 
 //Our Map API key is AIzaSyBvC_BNOjfNmfa_DlXf1EGfynifEa-vBG0
 //This key is only verified for our app BookMySeat
-//Mail:  travel.buddy.finder@gmail.com
+//Mail: bookmyseat.app@gmail.com
 
 import android.*;
 import android.Manifest;
@@ -114,7 +114,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         if (Build.VERSION.SDK_INT < 23) {
 
-            locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
+            //locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
 
         } else {
 
