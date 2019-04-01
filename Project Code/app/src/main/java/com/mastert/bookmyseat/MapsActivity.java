@@ -105,6 +105,10 @@ public class MapsActivity extends AppCompatActivity  implements  OnMapReadyCallb
 
 
 
+                LatLng nsu = new LatLng(23.8151152, 90.4249748); //@23.8151152,90.4249748 (NSU Location)
+                mMap.addMarker(new MarkerOptions().position(nsu).title("North South University")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+                mMap.moveCamera(CameraUpdateFactory.newLatLng(nsu));
             }
 
             @Override
