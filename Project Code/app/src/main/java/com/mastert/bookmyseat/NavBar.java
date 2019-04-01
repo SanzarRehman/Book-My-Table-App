@@ -87,7 +87,7 @@ public class NavBar extends AppCompatActivity
 
         } else if (id == R.id.nav_map) {
 
-            Intent navMap = new Intent(NavBar.this, Map.class);
+            Intent navMap = new Intent(NavBar.this, MapsActivity.class);
             startActivity(navMap);
 
         } else if (id == R.id.nav_manage) {
