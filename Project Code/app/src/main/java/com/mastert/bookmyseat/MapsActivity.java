@@ -91,6 +91,8 @@ public class MapsActivity extends AppCompatActivity  implements  OnMapReadyCallb
     }
 
 
+    @SuppressLint("MissingPermission")
+    @Override
     public void onMapReady(GoogleMap googleMap) {
 
         mMap = googleMap;
@@ -133,7 +135,7 @@ public class MapsActivity extends AppCompatActivity  implements  OnMapReadyCallb
 
         if (Build.VERSION.SDK_INT < 23) {
 
-
+            locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
 
         } else {
 
