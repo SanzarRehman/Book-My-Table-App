@@ -16,6 +16,9 @@ Faculty : Shaikh Shawon Arefin Shimon
 North South University
 
 
+Slack Channel: fall2019cse299sec4g2.slack.com
+
+
 Members:
 
 
