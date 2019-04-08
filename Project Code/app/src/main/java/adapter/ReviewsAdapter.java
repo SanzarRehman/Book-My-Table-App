@@ -26,7 +26,7 @@ public class ReviewsAdapter extends RecyclerView.Adapter<ReviewsAdapter.MyViewHo
         @Override
         public ReviewsAdapter.MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
                 View view = LayoutInflater.from(parent.getContext())
-                        .inflate(R.layout.item_reviews, parent, false);
+                       .inflate(R.layout.reviews, parent, false);
 
                 return new ReviewsAdapter.MyViewHolder(view);
         }
@@ -67,16 +67,16 @@ public class ReviewsAdapter extends RecyclerView.Adapter<ReviewsAdapter.MyViewHo
 
                 public MyViewHolder(View itemView) {
                         super(itemView);
-                        foodtext1 = itemView.findViewById(R.id.foodtext1);
-                        foodtext2 = itemView.findViewById(R.id.foodtext2);
-                        foodtext3 = itemView.findViewById(R.id.foodtext3);
+                       // foodtext1 = itemView.findViewById(R.id.foodtext1);
+                        //foodtext2 = itemView.findViewById(R.id.foodtext2);
+                        //foodtext3 = itemView.findViewById(R.id.foodtext3);
                        // foodtext4 = itemView.findViewById(R.id.foodtext4);
-                        circleviewimg1 = itemView.findViewById(R.id.circleviewimg1);
-                        foodimg1 = itemView.findViewById(R.id.foodimg1);
-                        foodimg2 = itemView.findViewById(R.id.foodimg2);
-                        foodimg3 = itemView.findViewById(R.id.foodimg3);
-                        foodimg4 = itemView.findViewById(R.id.foodimg4);
-                        ll1=itemView.findViewById(R.id.ll1);
+                        //circleviewimg1 = itemView.findViewById(R.id.circleviewimg1);
+                        //foodimg1 = itemView.findViewById(R.id.foodimg1);
+                        //foodimg2 = itemView.findViewById(R.id.foodimg2);
+                        //foodimg3 = itemView.findViewById(R.id.foodimg3);
+                        //foodimg4 = itemView.findViewById(R.id.foodimg4);
+                        //ll1=itemView.findViewById(R.id.ll1);
                 }
         }
 
