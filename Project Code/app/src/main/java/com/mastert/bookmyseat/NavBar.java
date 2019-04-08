@@ -90,7 +90,10 @@ public class NavBar extends AppCompatActivity
             Intent navMap = new Intent(NavBar.this, MapsActivity.class);
             startActivity(navMap);
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.pay_ment) {
+            Intent Paymentk = new Intent(NavBar.this, payment.class);
+            startActivity(Paymentk);
+
 
         } else if (id == R.id.nav_share) {
             //sending feed back to via others

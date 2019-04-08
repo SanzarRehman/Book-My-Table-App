@@ -25,6 +25,10 @@
             android:icon="@drawable/icon_map"
             android:title="Find Location" />
         <item
+            android:id="@+id/pay_ment"
+            android:icon="@drawable/icon_map"
+            android:title="Payment" />
+        <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
             android:title="Settings" />
