@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 
-import com.example.wolfsoft2.food7.R;
+import com.mastert.bookmyseat.R;
 
 import java.util.List;
 
