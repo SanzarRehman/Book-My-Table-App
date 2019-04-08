@@ -5,9 +5,16 @@ Project Code
 added activities:
 
 NewsFeed
-NavBar
+Navavigation Bar
 SplashScreen
 REgistration
 Login
 SignUp
 Hander
+Payment Gateway
+Review Food & Restaurant
+Menu List
+Error Page
+About
+Settings
+Tabbed view menu
