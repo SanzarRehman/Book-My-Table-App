@@ -16,11 +16,7 @@
         android:roundIcon="@drawable/finalaa"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".FeedActivity"
-            android:label="@string/title_activity_feed"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".payment" />
+        <activity android:name=".ReviewsActivity"></activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -36,9 +32,6 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity
-            android:name=".SettingsActivity"
-            android:label="@string/title_activity_settings" />
         <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings" />
