@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignInActivity"
+    tools:context=".bkash"
     android:orientation="vertical"
     android:fitsSystemWindows="true">
     <LinearLayout
@@ -15,21 +15,8 @@
         android:padding="50dp"
         android:background="@color/colorPrimaryDark"
         android:fitsSystemWindows="true">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="40dp"
-            android:textColor="#fff"
-            android:text=" BOOK MY SEAT"
-            android:textStyle="bold"
-            android:fitsSystemWindows="true"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="40dp"
-            android:textColor="#fff"
-            android:text=""/>
+
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -40,18 +27,11 @@
             <Button
                 android:layout_margin="20dp"
                 android:textColor="#fff"
-                android:layout_width="125dp"
+                android:layout_width="225dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/buttonstylepink"
-                android:text="Learn more " />
-            <Button
-                android:id="@+id/join"
-                android:layout_margin="20dp"
-                android:textColor="#fff"
-                android:layout_width="125dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonpink2"
-                android:text="Join US   " />
+                android:text="Help With Payment " />
+
 
 
         </LinearLayout>
@@ -72,28 +52,28 @@
             android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:hint="    USERNAME"/>
+            android:hint="    Bkash Number"/>
         <EditText
 
             android:id="@+id/pass1"
             android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:hint="    PASSWORD"/>
+            android:hint="    Transaction ID"/>
 
         <Button
-            android:id="@+id/login1"
+            android:id="@+id/paidbkash"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:background="@drawable/buttonstylepink"
             android:layout_marginTop="15dp"
-            android:text="LOGIN  "
+            android:text="Pay  "
             android:textColor="#fff" />
 
         <LinearLayout
             android:layout_width="297dp"
             android:layout_height="222dp"
-            android:background="@drawable/finalaa">
+            android:background="@drawable/bkash">
 
         </LinearLayout>
     </LinearLayout>

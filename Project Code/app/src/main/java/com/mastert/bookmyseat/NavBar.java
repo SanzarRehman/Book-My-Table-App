@@ -1,5 +1,6 @@
 package com.mastert.bookmyseat;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -84,11 +85,24 @@ public class NavBar extends AppCompatActivity
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_map) {
 
-        } else if (id == R.id.nav_manage) {
+            Intent navMap = new Intent(NavBar.this, MapsActivity.class);
+            startActivity(navMap);
+
+        } else if (id == R.id.pay_ment) {
+            Intent Paymentk = new Intent(NavBar.this, payment.class);
+            startActivity(Paymentk);
+
 
         } else if (id == R.id.nav_share) {
+            //sending feed back to via others
+            Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+            sharingIntent.setType("text/plain");
+            String shareBody = "\nBook My Seat!:\n\n ";
+            sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Subject Here");
+            sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+            startActivity(Intent.createChooser(sharingIntent, "Share via"));
 
         } else if (id == R.id.nav_send) {
 

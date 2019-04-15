@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SignUpActivity"
+    tools:context=".payment"
     android:fitsSystemWindows="true">
 
 
@@ -14,11 +14,6 @@
         android:layout_height="wrap_content"
         android:layout_weight="1">
 
-        <ImageView
-            android:layout_width="329dp"
-            android:layout_height="252dp"
-            android:layout_centerInParent="true"
-            android:background="@drawable/finalaa" />
 
     </RelativeLayout>
 
@@ -37,46 +32,24 @@
             android:paddingLeft="15dp"
             android:paddingRight="15dp">
 
-            <EditText
-                android:background="@color/common_google_signin_btn_text_dark_default"
-                android:id="@+id/editTextEmail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/ic_person_outline_black_24dp"
-                android:hint="USERNAME"
-                android:inputType="textEmailAddress"
-                android:paddingBottom="15dp"
-                />
-
-            <EditText
-                android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
-                android:background="@color/common_google_signin_btn_text_dark_default"
-                android:id="@+id/editTextPassword"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:hint="PASSWORD"
-                android:inputType="textPassword"
-                android:paddingBottom="15dp"
-                />
 
             <Button
-                android:id="@+id/buttonSignUp"
+                android:id="@+id/setcard"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="7dp"
                 android:background="@drawable/buttonstylepink"
-                android:text="Sign Up"
+                android:text="Set card"
                 android:textAllCaps="false"
                 android:textColor="@color/colorPrimaryDark" />
 
             <TextView
-                android:id="@+id/textViewLogin"
+                android:id="@+id/paywithbkash"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="15dp"
-                android:text="Already have an account? Login"
+                android:text="Pay With Bkash?"
                 android:textAlignment="center"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:textColor="@color/colorAccent" />
@@ -84,16 +57,43 @@
 
         </LinearLayout>
 
-        <ProgressBar
-            android:id="@+id/progressbar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:visibility="gone" />
+        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".payment">
 
+            <com.vinaygaba.creditcardview.CreditCardView
+                android:id="@+id/card1"
+                android:layout_width="fill_parent"
+                android:layout_height="225dp"
+                android:background="@drawable/cardbackground_world"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                app:cardNumber="5500005555555559"
+                app:cardName="Sanzar"
+                app:cardNumberTextColor="#cccccc"
+                app:cardNumberFormat="masked_all_but_last_four"
+                app:cardNameTextColor="#cccccc"
+                app:type="auto"
+
+                app:putChip="true"
+                app:expiryDate = "02/22"
+                app:expiryDateTextColor="#cccccc"
+                app:isEditable="true"
+                app:validTillTextColor="#cccccc"
+                app:hintTextColor = "#cccccc"
+                />
+
+        </android.support.constraint.ConstraintLayout>
 
     </RelativeLayout>
 
 
 </LinearLayout>
+
+
+
+
+
