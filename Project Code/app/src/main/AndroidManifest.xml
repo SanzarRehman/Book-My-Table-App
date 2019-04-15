@@ -16,7 +16,6 @@
         android:roundIcon="@drawable/finalaa"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ReviewsActivity"></activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -35,15 +34,6 @@
         <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings" />
-        <activity
-            android:name=".ShowRestaurantActivity"
-            android:label="Show Restaurant"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.mastert.bookmyseat.MainActivity" />
-        </activity>
         <activity
             android:name=".NavBar"
             android:label="@string/title_activity_nav_bar"
