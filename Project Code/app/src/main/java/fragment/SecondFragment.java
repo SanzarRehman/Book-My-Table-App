@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.wolfsoft2.food7.R;
+import com.mastert.bookmyseat.R;
 
 
 public class SecondFragment extends Fragment{
