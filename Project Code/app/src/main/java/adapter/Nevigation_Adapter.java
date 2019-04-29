@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 
-import ccom.mastert.bookmyseat.R;
+import com.mastert.bookmyseat.R;
 
 import java.util.ArrayList;
 
