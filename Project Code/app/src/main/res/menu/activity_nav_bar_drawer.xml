@@ -5,15 +5,15 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_timeline"
             android:icon="@drawable/ic_menu_camera"
             android:title="Timeline" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_map"
             android:icon="@drawable/icon_map"
             android:title="Location" />
         <item
-            android:id="@+id/order"
+            android:id="@+id/nav_order"
             android:icon="@drawable/ic_order"
             android:title="Order" />
         <item
@@ -25,8 +25,8 @@
             android:icon="@drawable/ic_today_black_24dp"
             android:title="Notification" />
         <item
-            android:id="@+id/nav_map"
-            android:icon="@drawable/icon_map"
+            android:id="@+id/nav_book"
+            android:icon="@drawable/ic_restaurant_black_24dp"
             android:title="Book A Table" />
         <item
             android:id="@+id/nav_profile"
@@ -37,7 +37,7 @@
             android:icon="@drawable/payment"
             android:title="Payment" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_settings"
             android:icon="@drawable/ic_menu_manage"
             android:title="Settings" />
     </group>

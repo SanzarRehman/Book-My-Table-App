@@ -81,13 +81,35 @@ public class NavBar extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-           // Intent reviewNav = new Intent(NavBar.this, ReviewsActivity.class);
-            //startActivity(reviewNav);
-        } else if (id == R.id.nav_map) {
+        if (id == R.id.nav_timeline) {
+            Intent navMap = new Intent(NavBar.this, AllcategoriesMainactivity.class);
+            startActivity(navMap);
 
+        } else if (id == R.id.nav_map) {
+            Intent navMap = new Intent(NavBar.this, MapsActivity.class);
+            startActivity(navMap);
+
+        } else if (id == R.id.nav_order) {
+            Intent navMap = new Intent(NavBar.this, MapsActivity.class);
+            startActivity(navMap);
+
+        } else if (id == R.id.nav_search) {
+            Intent navMap = new Intent(NavBar.this, MapsActivity.class);
+            startActivity(navMap);
+
+        } else if (id == R.id.nav_search) {
+            Intent navMap = new Intent(NavBar.this, MapsActivity.class);
+            startActivity(navMap);
+
+        } else if (id == R.id.nav_notification) {
+            Intent navMap = new Intent(NavBar.this, MapsActivity.class);
+            startActivity(navMap);
+
+        } else if (id == R.id.nav_book) {
+            Intent navMap = new Intent(NavBar.this, MapsActivity.class);
+            startActivity(navMap);
+
+        } else if (id == R.id.nav_profile) {
             Intent navMap = new Intent(NavBar.this, MapsActivity.class);
             startActivity(navMap);
 
@@ -95,6 +117,9 @@ public class NavBar extends AppCompatActivity
             Intent Paymentk = new Intent(NavBar.this, payment.class);
             startActivity(Paymentk);
 
+        } else if (id == R.id.nav_settings) {
+            Intent navMap = new Intent(NavBar.this, MapsActivity.class);
+            startActivity(navMap);
 
         } else if (id == R.id.nav_share) {
             //sending feed back to via others
@@ -109,7 +134,6 @@ public class NavBar extends AppCompatActivity
             // exiting app
             finish();
             moveTaskToBack(true);
-
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
