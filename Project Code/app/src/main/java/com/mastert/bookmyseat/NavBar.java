@@ -90,35 +90,31 @@ public class NavBar extends AppCompatActivity
             startActivity(navMap);
 
         } else if (id == R.id.nav_order) {
-            Intent navMap = new Intent(NavBar.this, MapsActivity.class);
+            Intent navMap = new Intent(NavBar.this, Food7.class);
             startActivity(navMap);
 
         } else if (id == R.id.nav_search) {
-            Intent navMap = new Intent(NavBar.this, MapsActivity.class);
-            startActivity(navMap);
-
-        } else if (id == R.id.nav_search) {
-            Intent navMap = new Intent(NavBar.this, MapsActivity.class);
+            Intent navMap = new Intent(NavBar.this, FavoriteActivity.class);
             startActivity(navMap);
 
         } else if (id == R.id.nav_notification) {
-            Intent navMap = new Intent(NavBar.this, MapsActivity.class);
+            Intent navMap = new Intent(NavBar.this, NotificationsActivity.class);
             startActivity(navMap);
 
         } else if (id == R.id.nav_book) {
-            Intent navMap = new Intent(NavBar.this, MapsActivity.class);
+            Intent navMap = new Intent(NavBar.this, BookATableMainactivity.class);
             startActivity(navMap);
 
         } else if (id == R.id.nav_profile) {
-            Intent navMap = new Intent(NavBar.this, MapsActivity.class);
+            Intent navMap = new Intent(NavBar.this, NevigationActivity.class);
             startActivity(navMap);
 
-        } else if (id == R.id.pay_ment) {
+        } else if (id == R.id.nav_payment) {
             Intent Paymentk = new Intent(NavBar.this, payment.class);
             startActivity(Paymentk);
 
-        } else if (id == R.id.nav_settings) {
-            Intent navMap = new Intent(NavBar.this, MapsActivity.class);
+        } else if (id == R.id.nav_details) {
+            Intent navMap = new Intent(NavBar.this, Food5_detail.class);
             startActivity(navMap);
 
         } else if (id == R.id.nav_share) {
