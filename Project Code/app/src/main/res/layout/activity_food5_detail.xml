@@ -41,8 +41,8 @@
                     android:layout_height="48dp"
                     android:layout_below="@+id/view"
                     android:layout_gravity="bottom"
-                    app:ci_drawable="@drawable/ic_circle"
-                    app:ci_drawable_unselected="@drawable/ic_circle"
+                    app:ci_drawable="@drawable/ic_group_collapse_00"
+                    app:ci_drawable_unselected="@drawable/ic_group_collapse_00"
                     app:ci_height="7dp"
                     app:ci_width="7dp" />
 
@@ -147,7 +147,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:padding="1dp"
-                            android:src="@drawable/phone" />
+                            android:src="@drawable/ic_people_black_24dp" />
 
                         <customfonts.MyTextView_Roboto_Regular
                             android:layout_width="wrap_content"
@@ -356,7 +356,7 @@ tristique senectus et netus et."
                     android:layout_marginRight="5.4dp"
                     android:layout_marginTop="17dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/khilji"
+                    android:src="@drawable/quantum_ic_stop_grey600_36"
                     app:riv_corner_radius="30dip"
                     app:riv_oval="true" />
 
@@ -427,7 +427,7 @@ tristique senectus et netus et."
                     android:layout_marginRight="5.4dp"
                     android:layout_marginTop="17dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/khilji"
+                    android:src="@drawable/ic_add_black_24dp"
                     app:riv_corner_radius="30dip"
                     app:riv_oval="true" />
 

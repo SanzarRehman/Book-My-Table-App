@@ -16,7 +16,7 @@
                 android:id="@+id/imagehistory"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/payment_method"
+                android:src="@drawable/payment"
                 android:layout_marginLeft="15.4dp"/>
 
             <customfonts.MyTextView_Roboto_Regular

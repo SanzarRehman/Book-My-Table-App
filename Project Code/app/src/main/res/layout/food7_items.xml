@@ -105,7 +105,7 @@
                 android:id="@+id/History_Id"
                 android:layout_width="16dp"
                 android:layout_height="16dp"
-                android:src="@drawable/ic_copy5"
+                android:src="@drawable/ic_media_pause_light"
                 android:tint="#d22532"
                 android:layout_marginLeft="2dp"/>
 

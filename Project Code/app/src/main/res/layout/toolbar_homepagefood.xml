@@ -30,7 +30,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/search_grey"
+            android:src="@drawable/icon_map"
             android:layout_marginLeft="8dp"/>
 
         <TextView
@@ -50,7 +50,7 @@
         <ImageView
             android:layout_width="17dp"
             android:layout_height="17dp"
-            android:src="@drawable/ic_pin"
+            android:src="@drawable/ic_media_play_light"
             android:layout_marginLeft="5dp"/>
         <TextView
             android:layout_width="wrap_content"
