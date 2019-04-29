@@ -24,15 +24,15 @@ public class ReviewsAdapter extends RecyclerView.Adapter<ReviewsAdapter.MyViewHo
         private List<ReviewsModel> modelRecyclerFood14List;
 
         @Override
-        public ReviewsAdapter.MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
                 View view = LayoutInflater.from(parent.getContext())
-                       .inflate(R.layout.reviews, parent, false);
+                        .inflate(R.layout.item_reviews, parent, false);
 
-                return new ReviewsAdapter.MyViewHolder(view);
+                return new MyViewHolder(view);
         }
 
         @Override
-        public void onBindViewHolder(ReviewsAdapter.MyViewHolder holder, int position) {
+        public void onBindViewHolder(MyViewHolder holder, int position) {
                 ReviewsModel modelfoodrecycler = modelRecyclerFood14List.get(position);
 
                 holder.foodtext1.setText(modelfoodrecycler.getFoodtext1());
@@ -67,16 +67,16 @@ public class ReviewsAdapter extends RecyclerView.Adapter<ReviewsAdapter.MyViewHo
 
                 public MyViewHolder(View itemView) {
                         super(itemView);
-                       // foodtext1 = itemView.findViewById(R.id.foodtext1);
-                        //foodtext2 = itemView.findViewById(R.id.foodtext2);
-                        //foodtext3 = itemView.findViewById(R.id.foodtext3);
+                        foodtext1 = itemView.findViewById(R.id.foodtext1);
+                        foodtext2 = itemView.findViewById(R.id.foodtext2);
+                        foodtext3 = itemView.findViewById(R.id.foodtext3);
                        // foodtext4 = itemView.findViewById(R.id.foodtext4);
-                        //circleviewimg1 = itemView.findViewById(R.id.circleviewimg1);
-                        //foodimg1 = itemView.findViewById(R.id.foodimg1);
-                        //foodimg2 = itemView.findViewById(R.id.foodimg2);
-                        //foodimg3 = itemView.findViewById(R.id.foodimg3);
-                        //foodimg4 = itemView.findViewById(R.id.foodimg4);
-                        //ll1=itemView.findViewById(R.id.ll1);
+                        circleviewimg1 = itemView.findViewById(R.id.circleviewimg1);
+                        foodimg1 = itemView.findViewById(R.id.foodimg1);
+                        foodimg2 = itemView.findViewById(R.id.foodimg2);
+                        foodimg3 = itemView.findViewById(R.id.foodimg3);
+                        foodimg4 = itemView.findViewById(R.id.foodimg4);
+                        ll1=itemView.findViewById(R.id.ll1);
                 }
         }
 

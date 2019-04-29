@@ -1,6 +1,7 @@
 package model;
 
 
+
 public class ReviewsModel {
     public ReviewsModel(String foodtext1, String foodtext2, String foodtext3, String foodtext4, Integer circleviewimg1, Integer foodimg1, Integer foodimg2, Integer foodimg3, Integer foodimg4) {
         this.foodtext1 = foodtext1;

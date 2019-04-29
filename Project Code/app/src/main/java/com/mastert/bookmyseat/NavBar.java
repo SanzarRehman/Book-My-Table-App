@@ -84,7 +84,8 @@ public class NavBar extends AppCompatActivity
         if (id == R.id.nav_camera) {
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
-
+           // Intent reviewNav = new Intent(NavBar.this, ReviewsActivity.class);
+            //startActivity(reviewNav);
         } else if (id == R.id.nav_map) {
 
             Intent navMap = new Intent(NavBar.this, MapsActivity.class);

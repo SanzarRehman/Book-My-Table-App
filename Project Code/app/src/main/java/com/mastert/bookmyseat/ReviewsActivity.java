@@ -25,7 +25,7 @@ public class ReviewsActivity extends AppCompatActivity {
     String foodtext4[] = {"25 Reviews","25 Reviews","25 Reviews"};
 
 
-    Integer circleviewimg1[] = {R.drawable.img1,R.drawable.img1,R.drawable.img1};
+    Integer circleviewimg1[] = {R.drawable.img14a,R.drawable.img14b,R.drawable.img14a};
     Integer foodimg1[] = {R.drawable.img1,R.drawable.img2,R.drawable.img1};
     Integer foodimg2[] = {R.drawable.img1,R.drawable.img2,R.drawable.img1};
     Integer foodimg3[] = {R.drawable.img1,R.drawable.img2,R.drawable.img1};
