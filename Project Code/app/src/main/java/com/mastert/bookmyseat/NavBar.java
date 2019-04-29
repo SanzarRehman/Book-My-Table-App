@@ -105,7 +105,10 @@ public class NavBar extends AppCompatActivity
             sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
             startActivity(Intent.createChooser(sharingIntent, "Share via"));
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_exit) {
+            // exiting app
+            finish();
+            moveTaskToBack(true);
 
         }
 
