@@ -23,7 +23,7 @@
                 android:layout_height="38.4dp"
                 android:layout_marginTop="12.8dp"
                 android:layout_marginLeft="10.8dp"
-                android:src="@drawable/img14a"
+                android:src="@drawable/ic_people_black_24dp"
                 app:civ_border_color="#ffffff"/>
 
             <LinearLayout
@@ -45,7 +45,7 @@
                         android:textColor="#4a4a4a"
                         android:layout_weight="1"
                         android:id="@+id/foodtext1"
-                        android:text="Ellen McLaughlin"/>
+                        android:text="Ahee Khan"/>
 
                     <RatingBar
                         style="?android:attr/ratingBarStyleSmall"
