@@ -81,20 +81,41 @@ public class NavBar extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-           // Intent reviewNav = new Intent(NavBar.this, ReviewsActivity.class);
-            //startActivity(reviewNav);
-        } else if (id == R.id.nav_map) {
+        if (id == R.id.nav_timeline) {
+            Intent navMap = new Intent(NavBar.this, AllcategoriesMainactivity.class);
+            startActivity(navMap);
 
+        } else if (id == R.id.nav_map) {
             Intent navMap = new Intent(NavBar.this, MapsActivity.class);
             startActivity(navMap);
 
-        } else if (id == R.id.pay_ment) {
+        } else if (id == R.id.nav_order) {
+            Intent navMap = new Intent(NavBar.this, Food7.class);
+            startActivity(navMap);
+
+        } else if (id == R.id.nav_search) {
+            Intent navMap = new Intent(NavBar.this, FavoriteActivity.class);
+            startActivity(navMap);
+
+        } else if (id == R.id.nav_notification) {
+            Intent navMap = new Intent(NavBar.this, NotificationsActivity.class);
+            startActivity(navMap);
+
+        } else if (id == R.id.nav_book) {
+            Intent navMap = new Intent(NavBar.this, BookATableMainactivity.class);
+            startActivity(navMap);
+
+        } else if (id == R.id.nav_profile) {
+            Intent navMap = new Intent(NavBar.this, NevigationActivity.class);
+            startActivity(navMap);
+
+        } else if (id == R.id.nav_payment) {
             Intent Paymentk = new Intent(NavBar.this, payment.class);
             startActivity(Paymentk);
 
+        } else if (id == R.id.nav_details) {
+            Intent navMap = new Intent(NavBar.this, Food5_detail.class);
+            startActivity(navMap);
 
         } else if (id == R.id.nav_share) {
             //sending feed back to via others
@@ -105,8 +126,10 @@ public class NavBar extends AppCompatActivity
             sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
             startActivity(Intent.createChooser(sharingIntent, "Share via"));
 
-        } else if (id == R.id.nav_send) {
-
+        } else if (id == R.id.nav_exit) {
+            // exiting app
+            finish();
+            moveTaskToBack(true);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

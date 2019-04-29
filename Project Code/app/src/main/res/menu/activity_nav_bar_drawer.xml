@@ -5,45 +5,53 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_timeline"
             android:icon="@drawable/ic_menu_camera"
             android:title="Timeline" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/nav_map"
+            android:icon="@drawable/icon_map"
             android:title="Location" />
         <item
-            android:id="@+id/order"
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_order"
             android:title="Order" />
         <item
             android:id="@+id/nav_search"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_restaurant_black_24dp"
             android:title="Search Food" />
         <item
-            android:id="@+id/nav_map"
-            android:icon="@drawable/icon_map"
-            android:title="Find Location" />
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_today_black_24dp"
+            android:title="Notification" />
         <item
-            android:id="@+id/pay_ment"
-            android:icon="@drawable/icon_map"
+            android:id="@+id/nav_book"
+            android:icon="@drawable/ic_restaurant_black_24dp"
+            android:title="Book A Table" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/person"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/payment"
             android:title="Payment" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Settings" />
+            android:id="@+id/nav_details"
+            android:icon="@drawable/ic_trending_up_black_24dp"
+            android:title="Details" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Communicate and Close">
         <menu>
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
                 android:title="Share" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Feedback" />
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="Exit" />
         </menu>
     </item>
 
