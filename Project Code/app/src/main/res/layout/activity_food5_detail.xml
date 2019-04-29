@@ -495,7 +495,7 @@ tristique senectus et netus et."
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:background="#f15421"
+            android:background="#D81B60"
             android:text="Book a table"
             android:textColor="#ffffff"
             android:textSize="14.4sp" />

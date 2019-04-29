@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:padding="17dp"
-    android:background="#f15421">
+    android:background="#D81B60">
 
     <ImageView
         android:layout_width="wrap_content"
