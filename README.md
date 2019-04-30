@@ -16,11 +16,6 @@ A restaurant reservation software with an easy web based and password protected 
 Build-up Language: Java (back-end), XML(front-end)
 
 ![SCREENSHOT](Mockup/Screenshot/Design.jpg)
-![SCREENSHOT](Mockup/b1.jpg)
-![SCREENSHOT](Mockup/b3.jpg)
-![SCREENSHOT](Mockup/b4.jpg)
-![SCREENSHOT](Mockup/b5.jpg)
-![SCREENSHOT](Mockup/b8.jpg)
 
 Semester: Spring'19
 
