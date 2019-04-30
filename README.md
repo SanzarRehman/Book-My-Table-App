@@ -16,7 +16,11 @@ A restaurant reservation software with an easy web based and password protected 
 Build-up Language: Java (back-end), XML(front-end)
 
 ![SCREENSHOT](Mockup/Screenshot/Design.jpg)
-
+![SCREENSHOT](Mockup/b1.jpg)
+![SCREENSHOT](Mockup/b3.jpg)
+![SCREENSHOT](Mockup/b4.jpg)
+![SCREENSHOT](Mockup/b5.jpg)
+![SCREENSHOT](Mockup/b8.jpg)
 
 Semester: Spring'19
 
@@ -26,8 +30,11 @@ North South University
 
 
 GitHub Link: https://github.com/nsuspring2019cse299sec4/Group-2
+
 Slack Channel: fall2019cse299sec4g2.slack.com
+
 Trello Borad: https://trello.com/b/WOLFauFB/main
+
 Gnatt chart: Gnatt chart is intregrated with Trello Board
 
 
