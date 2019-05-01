@@ -26,7 +26,7 @@ North South University
 
 GitHub Link: https://github.com/nsuspring2019cse299sec4/Group-2
 
-Slack Channel: fall2019cse299sec4g2.slack.com
+Slack Channel: https://fall2019cse299sec4g2.slack.com
 
 Trello Borad: https://trello.com/b/WOLFauFB/main
 
