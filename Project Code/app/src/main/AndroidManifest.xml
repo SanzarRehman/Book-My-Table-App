@@ -28,7 +28,18 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
-
+        <activity android:name=".Food7" />
+        <activity android:name=".Food5_detail" />
+        <activity android:name=".activity_food13" />
+        <activity android:name=".ReviewsActivity" />
+        <activity android:name=".NotificationsActivity" />
+        <activity android:name=".HomepageActivity" />
+        <activity android:name=".FavoriteActivity" />
+        <activity android:name=".NevigationActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".AllcategoriesMainactivity" />
+        <activity android:name=".BookATableMainactivity"/>
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />

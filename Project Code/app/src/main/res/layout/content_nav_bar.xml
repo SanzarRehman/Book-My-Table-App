@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".NavBar"
-    android:background="@color/com_facebook_button_login_silver_background_color_pressed"
+    android:background="@color/cast_intro_overlay_button_background_color"
     tools:showIn="@layout/app_bar_nav_bar">
 
     <ImageView

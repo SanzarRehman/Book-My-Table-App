@@ -17,19 +17,16 @@ public class SplashScreenActivity extends AppCompatActivity {
                 public void run() {
 
                     try {
-                        // Thread will sleep for 5 seconds
+                        // Thread will sleep for 3 seconds
                         sleep(3*1000);
 
                         Intent intent = new Intent(SplashScreenActivity.this,Registration.class);
                         startActivity(intent);
 
-
-                        // After 5 seconds redirect to another intent
-
-
+                        // After 3 seconds redirect to another intent
                         //Remove activity
-                        finish();
 
+                        finish();
                     } catch (Exception e) {
 
                     }
@@ -38,7 +35,6 @@ public class SplashScreenActivity extends AppCompatActivity {
 
             // start thread
             background.start();
-
 
         }
         @Override

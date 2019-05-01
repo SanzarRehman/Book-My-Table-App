@@ -32,7 +32,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="    Namae"
-                android:background="@color/buttonTextColor"/>
+                android:background="@color/cast_intro_overlay_button_background_color"/>
             <EditText
 
                 android:id="@+id/ccard"
@@ -40,7 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="    Credit Card Number"
-                android:background="@color/buttonTextColor"/>
+                android:background="@color/cast_intro_overlay_button_background_color"/>
 
 
             <Button
