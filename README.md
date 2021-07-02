@@ -1,8 +1,3 @@
-# Group-2
-
-CSE299 - Junior design
-
-
 Project Topic: Hostel, Restaurant Seat & food reservation App
 
 
